@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_9_6
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_9_6
 /-!
 # Analysis I, Section 10.2: Local maxima, local minima, and derivatives
 
@@ -15,6 +17,8 @@ Main constructions and results of this section:
 - mean value theorem.
 
 -/
+
+@[expose] public section
 
 open Chapter9
 namespace Chapter10

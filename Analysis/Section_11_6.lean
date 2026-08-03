@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Analysis.Section_9_8
-import Analysis.Section_11_5
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_9_8
+public import Analysis.Section_11_5
 
 /-!
 # Analysis I, Section 11.6: Riemann integrability of monotone functions
@@ -15,6 +17,8 @@ Main constructions and results of this section:
 - Riemann integrability of monotone functions.
 
 -/
+
+@[expose] public section
 
 namespace Chapter11
 open Chapter9 BoundedInterval

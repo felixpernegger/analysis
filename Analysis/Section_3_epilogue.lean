@@ -1,8 +1,12 @@
-import Mathlib.Tactic
-import Mathlib.SetTheory.ZFC.PSet
-import Mathlib.SetTheory.ZFC.Basic
-import Analysis.Tools.ExistsUnique
-import Analysis.Section_3_1
+module
+
+public import Mathlib.Tactic
+public import Mathlib.SetTheory.ZFC.PSet
+public import Mathlib.SetTheory.ZFC.Basic
+public import Analysis.Tools.ExistsUnique
+public import Analysis.Section_3_1
+
+@[expose] public section
 
 set_option doc.verso.suggestions false
 

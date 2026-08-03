@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Analysis I, Appendix A.4: Variables and quantifiers
@@ -6,6 +8,8 @@ import Mathlib.Tactic
 Some examples of how variables and quantifiers are used in Lean
 
 -/
+
+@[expose] public section
 
 namespace VariableExample1
 

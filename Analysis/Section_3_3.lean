@@ -1,6 +1,10 @@
-import Mathlib.Tactic
-import Analysis.Section_3_1
-import Analysis.Tools.ExistsUnique
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_3_1
+public import Analysis.Tools.ExistsUnique
+
+@[expose] public section
 
 set_option doc.verso.suggestions false
 

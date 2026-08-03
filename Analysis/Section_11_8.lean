@@ -1,6 +1,10 @@
-import Mathlib.Tactic
-import Mathlib.Topology.Instances.Irrational
-import Analysis.Section_11_6
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Topology.Instances.Irrational
+public import Analysis.Section_11_6
+
+@[expose] public section
 
 set_option doc.verso.suggestions false
 

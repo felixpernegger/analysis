@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Mathlib.Analysis.SpecificLimits.Basic
-import Analysis.Section_6_4
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import Analysis.Section_6_4
 /-!
 # Analysis I, Section 9.1: Subsets of the real line
 
@@ -18,6 +20,8 @@ Main constructions and results of this section:
 - The Heine-Borel theorem for the real line.
 
 -/
+
+@[expose] public section
 
 variable (I : Type*)
 

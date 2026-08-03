@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Analysis I, Appendix A.2: Implication
@@ -6,6 +8,8 @@ import Mathlib.Tactic
 An introduction to implications.  Showcases some basic tactics and Lean syntax.
 
 -/
+
+@[expose] public section
 
 example {X Y: Prop} (hX: X) : (X → Y) ↔ Y := by tauto
 

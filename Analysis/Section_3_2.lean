@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_3_1
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_3_1
 
 /-!
 # Analysis I, Section 3.2: Russell's paradox
@@ -25,6 +27,8 @@ Users of the companion who have completed the exercises in this section are welc
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 namespace Chapter3
 

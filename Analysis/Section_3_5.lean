@@ -1,7 +1,9 @@
-import Mathlib.Tactic
-import Analysis.Section_3_1
-import Analysis.Section_3_2
-import Analysis.Section_3_4
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_3_1
+public import Analysis.Section_3_2
+public import Analysis.Section_3_4
 
 /-!
 # Analysis I, Section 3.5: Cartesian products
@@ -26,6 +28,8 @@ Users of the companion who have completed the exercises in this section are welc
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 namespace Chapter3
 

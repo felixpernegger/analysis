@@ -1,6 +1,8 @@
-import Analysis.MeasureTheory.Section_1_2_0
-import Analysis.Misc.«Real-EReal-ENNReal»
-import Analysis.Misc.Combinatorics
+module
+
+public import Analysis.MeasureTheory.Section_1_2_0
+public import Analysis.Misc.«Real-EReal-ENNReal»
+public import Analysis.Misc.Combinatorics
 
 /-!
 # Introduction to Measure Theory, Section 1.2.1: Properties of Lebesgue outer measure
@@ -8,6 +10,8 @@ import Analysis.Misc.Combinatorics
 A companion to (the introduction to) Section 1.2.1 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 open BoundedInterval
 

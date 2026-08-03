@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Analysis I, Appendix A.3: The structure of proofs
@@ -6,6 +8,8 @@ import Mathlib.Tactic
 Some examples of proofs
 
 -/
+
+@[expose] public section
 
 /-- Proposition A.3.1 -/
 example {A B C D: Prop} (hAC: A → C) (hCD: C → D) (hDB: D → B): A → B := by

@@ -1,5 +1,9 @@
-import Mathlib.Tactic
-import Analysis.Section_4_3
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_4_3
+
+@[expose] public section
 
 set_option doc.verso.suggestions false
 

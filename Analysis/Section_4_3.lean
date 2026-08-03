@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Analysis I, Section 4.3: Absolute value and exponentiation
@@ -27,6 +29,8 @@ Users of the companion who have completed the exercises in this section are welc
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 
 /--

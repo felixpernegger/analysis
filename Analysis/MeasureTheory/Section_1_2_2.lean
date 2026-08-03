@@ -1,4 +1,6 @@
-import Analysis.MeasureTheory.Section_1_2_1
+module
+
+public import Analysis.MeasureTheory.Section_1_2_1
 
 /-!
 # Introduction to Measure Theory, Section 1.2.2: Lebesgue measurability
@@ -6,6 +8,8 @@ import Analysis.MeasureTheory.Section_1_2_1
 A companion to (the introduction to) Section 1.2.2 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 /-- Lemma 1.2.13(i) (Every open set is Lebesgue measurable). -/
 theorem IsOpen.measurable {d:ℕ} {E: Set (EuclideanSpace' d)} (hE: IsOpen E) : LebesgueMeasurable E := by

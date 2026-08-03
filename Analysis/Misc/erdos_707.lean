@@ -1,6 +1,10 @@
-import Mathlib
+module
+
+public import Mathlib
 
 /-! Formalizing a proof (the prime case of) Erdos problem \#707 recently proven by Alexeev, ChatGPT, Lean, and Mixon at https://borisalexeev.com/papers/erdos707.html, following Theorem 8 proven on page 5 -/
+
+@[expose] public section
 
 /-- A perfect difference set is a set where every nonzero element is uniquely representable as a difference of two elements of the set. -/
 def IsPerfectDifferenceSet {N: ℕ} (B: Finset (ZMod N)) := ∀ d: ZMod N, d ≠ 0 → ∃! b: B × B, b.1.val - b.2.val = d

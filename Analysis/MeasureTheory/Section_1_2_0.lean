@@ -1,13 +1,17 @@
-import Analysis.MeasureTheory.Section_1_1_3
-import Mathlib.Topology.Algebra.InfiniteSum.Basic
-import Mathlib.Data.Set.Countable
-import Mathlib.Topology.Instances.Irrational
+module
+
+public import Analysis.MeasureTheory.Section_1_1_3
+public import Mathlib.Topology.Algebra.InfiniteSum.Basic
+public import Mathlib.Data.Set.Countable
+public import Mathlib.Topology.Instances.Irrational
 /-!
 # Introduction to Measure Theory, Section 1.2: Lebesgue measure
 
 A companion to (the introduction to) Section 1.2 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 open BoundedInterval
 

@@ -1,7 +1,9 @@
-import Mathlib.Tactic
-import Analysis.Section_9_6
-import Analysis.Section_10_3
-import Analysis.Section_11_9
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_9_6
+public import Analysis.Section_10_3
+public import Analysis.Section_11_9
 
 
 /-!
@@ -17,6 +19,8 @@ Main constructions and results of this section:
 - Integration by parts
 
 -/
+
+@[expose] public section
 
 namespace Chapter11
 

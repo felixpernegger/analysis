@@ -1,10 +1,14 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Combinatorics utilities
 
 General combinatorics lemmas about Fin, Finset, and boolean choices.
 -/
+
+@[expose] public section
 
 /-- Distributive law: product of sums over Fin d equals sum over boolean choices of products.
     This is the key identity: ∏ᵢ (aᵢ + bᵢ) = ∑\_\{c : Fin d → Bool\} ∏ᵢ (if cᵢ then bᵢ else aᵢ) -/

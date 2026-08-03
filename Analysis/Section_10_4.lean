@@ -1,7 +1,9 @@
-import Mathlib.Tactic
-import Analysis.Section_9_3
-import Analysis.Section_9_4
-import Analysis.Section_10_1
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_9_3
+public import Analysis.Section_9_4
+public import Analysis.Section_10_1
 
 /-!
 # Analysis I, Section 10.4: Inverse functions and derivatives
@@ -16,6 +18,8 @@ Main constructions and results of this section:
 - The inverse function theorem.
 
 -/
+
+@[expose] public section
 
 open Chapter9
 namespace Chapter10

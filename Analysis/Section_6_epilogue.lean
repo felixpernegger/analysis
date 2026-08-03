@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_6_7
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_6_7
 
 /-!
 # Analysis I, Chapter 6 epilogue: Connections with Mathlib limits
@@ -10,6 +12,8 @@ that Mathlib's operations are defined in far greater generality than the setting
 sequences, in particular using the language of filters.
 
 -/
+
+@[expose] public section
 
 open Filter
 

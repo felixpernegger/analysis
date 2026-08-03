@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_5_1
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_5_1
 
 
 /-!
@@ -22,6 +24,8 @@ Users of the companion who have completed the exercises in this section are welc
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 
 abbrev Rat.CloseSeq (ε: ℚ) (a b: Chapter5.Sequence) : Prop :=

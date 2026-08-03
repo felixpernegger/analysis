@@ -1,4 +1,6 @@
-import Analysis.MeasureTheory.Section_1_2_2
+module
+
+public import Analysis.MeasureTheory.Section_1_2_2
 
 /-!
 # Introduction to Measure Theory, Section 1.2.3: Non-measurable sets
@@ -6,6 +8,8 @@ import Analysis.MeasureTheory.Section_1_2_2
 A companion to (the introduction to) Section 1.2.3 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 open scoped Pointwise
 

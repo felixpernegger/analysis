@@ -1,4 +1,8 @@
-import Lake
+module
+
+public import Lake
+
+@[expose] public section
 open Lake DSL
 
 package «Analysis» where

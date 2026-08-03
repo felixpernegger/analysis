@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Analysis I, Appendix A.1: Mathematical Statements
@@ -6,6 +8,8 @@ import Mathlib.Tactic
 An introduction to mathematical statements.  Showcases some basic tactics and Lean syntax.
 
 -/
+
+@[expose] public section
 
 
 /- Example A.1.1. What the textbook calls "statements" are objects of type `Prop` in Lean.  Also,

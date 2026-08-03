@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Analysis.Section_9_9
-import Analysis.Section_11_4
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_9_9
+public import Analysis.Section_11_4
 
 /-!
 # Analysis I, Section 11.5: Riemann integrability of continuous functions
@@ -16,6 +18,8 @@ Main constructions and results of this section:
 - Riemann integrability of bounded continuous functions.
 
 -/
+
+@[expose] public section
 
 namespace Chapter11
 open BoundedInterval

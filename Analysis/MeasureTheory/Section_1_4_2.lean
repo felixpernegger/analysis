@@ -1,11 +1,15 @@
-import Mathlib.SetTheory.Cardinal.Aleph
-import Analysis.MeasureTheory.Section_1_4_1
+module
+
+public import Mathlib.SetTheory.Cardinal.Aleph
+public import Analysis.MeasureTheory.Section_1_4_1
 /-!
 # Introduction to Measure Theory, Section 1.4.2: $\sigma$-algebras and measurable spaces
 
 A companion to (the introduction to) Section 1.4.2 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 /-- Definition 1.4.12 (Sigma algebra) -/
 class ConcreteSigmaAlgebra (X:Type*) extends ConcreteBooleanAlgebra X where

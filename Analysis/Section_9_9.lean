@@ -1,7 +1,9 @@
-import Mathlib.Tactic
-import Analysis.Section_6_1
-import Mathlib.Data.Nat.Nth
-import Analysis.Section_9_6
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_6_1
+public import Mathlib.Data.Nat.Nth
+public import Analysis.Section_9_6
 /-!
 # Analysis I, Section 9.9: Uniform continuity
 
@@ -16,6 +18,8 @@ Main constructions and results of this section:
 - Continuous functions on compact intervals are uniformly continuous.
 
 -/
+
+@[expose] public section
 
 open Chapter6 Filter
 

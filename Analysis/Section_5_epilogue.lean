@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_5_6
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_5_6
 
 /-!
 # Analysis I, Chapter 5 epilogue: Isomorphism with the Mathlib real numbers
@@ -23,6 +25,8 @@ Users of the companion who have completed the exercises in this section are welc
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 namespace Chapter5
 

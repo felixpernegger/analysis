@@ -1,7 +1,9 @@
-import Mathlib.Tactic
-import Analysis.Section_5_1
-import Analysis.Section_5_3
-import Analysis.Section_5_epilogue
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_5_1
+public import Analysis.Section_5_3
+public import Analysis.Section_5_epilogue
 
 /-!
 # Analysis I, Section 6.1: Convergence and limit laws
@@ -18,6 +20,8 @@ Main constructions and results of this section:
 - Notion of a Cauchy sequence, convergent sequence, and bounded sequence of reals.
 
 -/
+
+@[expose] public section
 
 
 /- Definition 6.1.1 (Distance).  Here we use the Mathlib distance. -/

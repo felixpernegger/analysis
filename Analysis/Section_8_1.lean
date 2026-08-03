@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Analysis I, Section 8.1: Countability
@@ -18,6 +20,8 @@ Main constructions and results of this section:
 Note that as the Chapter 3 set theory has been deprecated, we will not re-use relevant constructions from that theory here, replacing them with Mathlib counterparts instead.
 
 -/
+
+@[expose] public section
 
 namespace Chapter8
 

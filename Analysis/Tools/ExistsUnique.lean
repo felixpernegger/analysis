@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # API for ExistsUnique
@@ -6,6 +8,8 @@ import Mathlib.Tactic
 Here we review some of the API provided for {name}`ExistsUnique` in Mathlib, and provide some additional tools.  (Some of these might be suitable for upstreaming to Mathlib.)
 
 -/
+
+@[expose] public section
 
 
 #check existsUnique_of_exists_of_unique
@@ -47,4 +51,7 @@ theorem ExistsUnique.iff_subsingleton_nonempty  {α: Sort*} {p: α → Prop} :
   apply ExistsUnique.intro _ hx₀; intro y hy
   exact Subtype.mk.injEq _ _ _ _ ▸ (hsing.elim ⟨ _, hy ⟩ ⟨ _, hx₀ ⟩)
 
-#print axioms ExistsUnique.iff_subsingleton_nonempty 
+/- 'ExistsUnique.iff_subsingleton_nonempty' depends on axioms: [propext]
+
+#print axioms ExistsUnique.iff_subsingleton_nonempty
+-/

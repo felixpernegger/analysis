@@ -1,7 +1,9 @@
-import Mathlib.Tactic
-import Mathlib.Data.Real.Sign
-import Analysis.Section_9_3
-import Analysis.Section_9_4
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Data.Real.Sign
+public import Analysis.Section_9_3
+public import Analysis.Section_9_4
 
 /-!
 # Analysis I, Section 9.5: Left and right limits
@@ -15,6 +17,8 @@ doing so.
 Main constructions and results of this section:
 - Left and right limits.
 -/
+
+@[expose] public section
 
 namespace Chapter9
 

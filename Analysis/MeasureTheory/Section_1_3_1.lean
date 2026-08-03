@@ -1,5 +1,7 @@
-import Analysis.MeasureTheory.Section_1_2_3
-import Analysis.Misc.NatBitwise
+module
+
+public import Analysis.MeasureTheory.Section_1_2_3
+public import Analysis.Misc.NatBitwise
 
 /-!
 # Introduction to Measure Theory, Section 1.3.1: Integration of simple functions
@@ -7,6 +9,8 @@ import Analysis.Misc.NatBitwise
 A companion to (the introduction to) Section 1.3.1 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 -- some tools to convert between EReal-valued, ℝ-valued, and ℂ-valued functions
 

@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_6_5
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_6_5
 
 /-!
 # Analysis I, Section 6.6: Subsequences
@@ -14,6 +16,8 @@ Main constructions and results of this section:
 
 - Definition of a subsequence.
 -/
+
+@[expose] public section
 
 namespace Chapter6
 

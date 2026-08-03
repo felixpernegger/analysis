@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_6_4
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_6_4
 
 /-!
 # Analysis I, Section 6.5: Some standard limits
@@ -15,6 +17,8 @@ Main constructions and results of this section:
 - Some standard limits, including limits of sequences of the form 1/n^α, x^n, and x^(1/n).
 
 -/
+
+@[expose] public section
 
 namespace Chapter6
 

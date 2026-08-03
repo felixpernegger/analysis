@@ -1,4 +1,6 @@
-import Analysis.MeasureTheory.Section_1_3_2
+module
+
+public import Analysis.MeasureTheory.Section_1_3_2
 
 /-!
 # Introduction to Measure Theory, Section 1.3.3: Unsigned Lebesgue integrals
@@ -6,6 +8,8 @@ import Analysis.MeasureTheory.Section_1_3_2
 A companion to (the introduction to) Section 1.3.3 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 /-- Definition 1.3.12 (Lower unsigned Lebesgue integral) -/
 noncomputable def LowerUnsignedLebesgueIntegral {d:ℕ} (f: EuclideanSpace' d → EReal) : EReal :=

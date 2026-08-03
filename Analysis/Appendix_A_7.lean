@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Analysis I, Appendix A.7: Equality
@@ -6,6 +8,8 @@ import Mathlib.Tactic
 Introduction to equality in Lean
 
 -/
+
+@[expose] public section
 
 example : ∑' n:ℕ, 9*(10:ℝ)^(-(n:ℤ)-1) = 1 := by
   convert_to ∑' n:ℕ, (9/10)*(1/10:ℝ)^n = 1

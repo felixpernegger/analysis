@@ -1,102 +1,104 @@
-import Analysis.Section_2_1
-import Analysis.Section_2_2
-import Analysis.Section_2_3
-import Analysis.Section_2_epilogue
-import Analysis.Section_3_1
-import Analysis.Section_3_2
-import Analysis.Section_3_3
-import Analysis.Section_3_4
-import Analysis.Section_3_5
-import Analysis.Section_3_6
-import Analysis.Section_3_epilogue
-import Analysis.Section_4_1
-import Analysis.Section_4_2
-import Analysis.Section_4_3
-import Analysis.Section_4_4
-import Analysis.Section_5_1
-import Analysis.Section_5_2
-import Analysis.Section_5_3
-import Analysis.Section_5_4
-import Analysis.Section_5_5
-import Analysis.Section_5_6
-import Analysis.Section_5_epilogue
-import Analysis.Section_6_1
-import Analysis.Section_6_2
-import Analysis.Section_6_3
-import Analysis.Section_6_4
-import Analysis.Section_6_5
-import Analysis.Section_6_6
-import Analysis.Section_6_7
-import Analysis.Section_6_epilogue
-import Analysis.Section_7_1
-import Analysis.Section_7_2
-import Analysis.Section_7_3
-import Analysis.Section_7_4
-import Analysis.Section_7_5
-import Analysis.Section_8_1
-import Analysis.Section_8_2
-import Analysis.Section_8_3
-import Analysis.Section_8_4
-import Analysis.Section_8_5
-import Analysis.Section_9_1
-import Analysis.Section_9_2
-import Analysis.Section_9_3
-import Analysis.Section_9_4
-import Analysis.Section_9_5
-import Analysis.Section_9_6
-import Analysis.Section_9_7
-import Analysis.Section_9_8
-import Analysis.Section_9_9
-import Analysis.Section_9_10
-import Analysis.Section_10_1
-import Analysis.Section_10_2
-import Analysis.Section_10_3
-import Analysis.Section_10_4
-import Analysis.Section_10_5
-import Analysis.Section_11_1
-import Analysis.Section_11_2
-import Analysis.Section_11_3
-import Analysis.Section_11_4
-import Analysis.Section_11_5
-import Analysis.Section_11_6
-import Analysis.Section_11_7
-import Analysis.Section_11_8
-import Analysis.Section_11_9
-import Analysis.Section_11_10
-import Analysis.Appendix_A_1
-import Analysis.Appendix_A_2
-import Analysis.Appendix_A_3
-import Analysis.Appendix_A_4
-import Analysis.Appendix_A_5
-import Analysis.Appendix_A_6
-import Analysis.Appendix_A_7
-import Analysis.Appendix_B_1
-import Analysis.Appendix_B_2
+module
 
-import Analysis.Misc.UnitsSystem
-import Analysis.Misc.UnitsSystemExamples
-import Analysis.Misc.SI
-import Analysis.Misc.SIExamples
-import Analysis.Misc.FiniteChoice
-import Analysis.Misc.Probability
-import Analysis.Misc.erdos_379
-import Analysis.Misc.erdos_613
-import Analysis.Misc.erdos_707
-import Analysis.Misc.erdos_987
+public import Analysis.Section_2_1
+public import Analysis.Section_2_2
+public import Analysis.Section_2_3
+public import Analysis.Section_2_epilogue
+public import Analysis.Section_3_1
+public import Analysis.Section_3_2
+public import Analysis.Section_3_3
+public import Analysis.Section_3_4
+public import Analysis.Section_3_5
+public import Analysis.Section_3_6
+public import Analysis.Section_3_epilogue
+public import Analysis.Section_4_1
+public import Analysis.Section_4_2
+public import Analysis.Section_4_3
+public import Analysis.Section_4_4
+public import Analysis.Section_5_1
+public import Analysis.Section_5_2
+public import Analysis.Section_5_3
+public import Analysis.Section_5_4
+public import Analysis.Section_5_5
+public import Analysis.Section_5_6
+public import Analysis.Section_5_epilogue
+public import Analysis.Section_6_1
+public import Analysis.Section_6_2
+public import Analysis.Section_6_3
+public import Analysis.Section_6_4
+public import Analysis.Section_6_5
+public import Analysis.Section_6_6
+public import Analysis.Section_6_7
+public import Analysis.Section_6_epilogue
+public import Analysis.Section_7_1
+public import Analysis.Section_7_2
+public import Analysis.Section_7_3
+public import Analysis.Section_7_4
+public import Analysis.Section_7_5
+public import Analysis.Section_8_1
+public import Analysis.Section_8_2
+public import Analysis.Section_8_3
+public import Analysis.Section_8_4
+public import Analysis.Section_8_5
+public import Analysis.Section_9_1
+public import Analysis.Section_9_2
+public import Analysis.Section_9_3
+public import Analysis.Section_9_4
+public import Analysis.Section_9_5
+public import Analysis.Section_9_6
+public import Analysis.Section_9_7
+public import Analysis.Section_9_8
+public import Analysis.Section_9_9
+public import Analysis.Section_9_10
+public import Analysis.Section_10_1
+public import Analysis.Section_10_2
+public import Analysis.Section_10_3
+public import Analysis.Section_10_4
+public import Analysis.Section_10_5
+public import Analysis.Section_11_1
+public import Analysis.Section_11_2
+public import Analysis.Section_11_3
+public import Analysis.Section_11_4
+public import Analysis.Section_11_5
+public import Analysis.Section_11_6
+public import Analysis.Section_11_7
+public import Analysis.Section_11_8
+public import Analysis.Section_11_9
+public import Analysis.Section_11_10
+public import Analysis.Appendix_A_1
+public import Analysis.Appendix_A_2
+public import Analysis.Appendix_A_3
+public import Analysis.Appendix_A_4
+public import Analysis.Appendix_A_5
+public import Analysis.Appendix_A_6
+public import Analysis.Appendix_A_7
+public import Analysis.Appendix_B_1
+public import Analysis.Appendix_B_2
 
-import Analysis.MeasureTheory.Notation
-import Analysis.MeasureTheory.Section_1_1_1
-import Analysis.MeasureTheory.Section_1_1_2
-import Analysis.MeasureTheory.Section_1_1_3
-import Analysis.MeasureTheory.Section_1_2_0
-import Analysis.MeasureTheory.Section_1_2_1
-import Analysis.MeasureTheory.Section_1_2_2
-import Analysis.MeasureTheory.Section_1_2_3
-import Analysis.MeasureTheory.Section_1_3_1
-import Analysis.MeasureTheory.Section_1_3_2
-import Analysis.MeasureTheory.Section_1_3_3
-import Analysis.MeasureTheory.Section_1_3_4
-import Analysis.MeasureTheory.Section_1_3_5
+public import Analysis.Misc.UnitsSystem
+public import Analysis.Misc.UnitsSystemExamples
+public import Analysis.Misc.SI
+public import Analysis.Misc.SIExamples
+public import Analysis.Misc.FiniteChoice
+public import Analysis.Misc.Probability
+public import Analysis.Misc.erdos_379
+public import Analysis.Misc.erdos_613
+public import Analysis.Misc.erdos_707
+public import Analysis.Misc.erdos_987
+
+public import Analysis.MeasureTheory.Notation
+public import Analysis.MeasureTheory.Section_1_1_1
+public import Analysis.MeasureTheory.Section_1_1_2
+public import Analysis.MeasureTheory.Section_1_1_3
+public import Analysis.MeasureTheory.Section_1_2_0
+public import Analysis.MeasureTheory.Section_1_2_1
+public import Analysis.MeasureTheory.Section_1_2_2
+public import Analysis.MeasureTheory.Section_1_2_3
+public import Analysis.MeasureTheory.Section_1_3_1
+public import Analysis.MeasureTheory.Section_1_3_2
+public import Analysis.MeasureTheory.Section_1_3_3
+public import Analysis.MeasureTheory.Section_1_3_4
+public import Analysis.MeasureTheory.Section_1_3_5
 
 /-!
  The files in this directory contain a formalization of selected portions of my text [Analysis I](https://terrytao.wordpress.com/books/analysis-i/) into [Lean](https://lean-lang.org/). The formalization is intended to be as faithful a paraphrasing as possible to the original text, while also showcasing Lean's features and syntax. In particular, the formalization is not optimized for efficiency, and in some cases may deviate from idiomatic Lean usage.
@@ -115,3 +117,5 @@ In order to align the formalization with Mathlib conventions, a small number of 
 
 [*Generated documentation*](docs/) is available for the project and its dependencies.
 -/
+
+@[expose] public section

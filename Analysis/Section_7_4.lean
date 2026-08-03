@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_7_3
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_7_3
 /-!
 # Analysis I, Section 7.4: Rearrangement of series
 
@@ -9,6 +11,8 @@ Main constructions and results of this section:
 
 - Rearrangement of non-negative or absolutely convergent series.
 -/
+
+@[expose] public section
 
 namespace Chapter7
 

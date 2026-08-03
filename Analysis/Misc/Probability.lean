@@ -1,6 +1,10 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-! Some finite probability theory -/
+
+@[expose] public section
 
 namespace ProbabilityTheory
 

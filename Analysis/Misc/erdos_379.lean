@@ -1,6 +1,10 @@
-import Mathlib
+module
+
+public import Mathlib
 
 /-! Formalizing a proof of Erdos problem \#379, arising from conversations between Stijn Cambie, Vjeko Kovac, and Terry Tao.  See the discussion at https://www.erdosproblems.com/forum/thread/379 -/
+
+@[expose] public section
 
 open Nat
 

@@ -1,7 +1,9 @@
-import Mathlib.Tactic
-import Mathlib.Data.Real.Sign
-import Analysis.Section_9_3
-import Analysis.Section_9_4
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Data.Real.Sign
+public import Analysis.Section_9_3
+public import Analysis.Section_9_4
 
 /-!
 # Analysis I, Section 9.6: The maximum principle
@@ -16,6 +18,8 @@ Main constructions and results of this section:
 - Continuous functions on closed and bounded intervals are bounded.
 - Continuous functions on closed and bounded intervals attain their maximum and minimum.
 -/
+
+@[expose] public section
 
 namespace Chapter9
 

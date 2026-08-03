@@ -1,10 +1,12 @@
-import Mathlib.Tactic
-import Mathlib.Algebra.Field.Power
-import Mathlib.NumberTheory.LSeries.RiemannZeta
-import Mathlib.NumberTheory.LSeries.HurwitzZetaValues
-import Analysis.Section_6_1
-import Analysis.Section_6_epilogue
-import Analysis.Section_7_2
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Algebra.Field.Power
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.NumberTheory.LSeries.HurwitzZetaValues
+public import Analysis.Section_6_1
+public import Analysis.Section_6_epilogue
+public import Analysis.Section_7_2
 
 /-!
 # Analysis I, Section 7.3: Sums of non-negative numbers
@@ -17,6 +19,8 @@ Main constructions and results of this section:
 - Cauchy condensation test.
 
 -/
+
+@[expose] public section
 
 namespace Chapter7
 

@@ -1,12 +1,14 @@
-import Mathlib.Tactic
-import Mathlib.Topology.ContinuousOn
-import Analysis.Section_7_3
-import Analysis.Section_9_4
-import Analysis.Section_9_8
-import Analysis.Section_10_1
-import Analysis.Section_10_2
-import Analysis.Section_11_6
-import Analysis.Section_11_8
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Topology.ContinuousOn
+public import Analysis.Section_7_3
+public import Analysis.Section_9_4
+public import Analysis.Section_9_8
+public import Analysis.Section_10_1
+public import Analysis.Section_10_2
+public import Analysis.Section_11_6
+public import Analysis.Section_11_8
 
 
 /-!
@@ -21,6 +23,8 @@ have consciously avoided doing so.
 Main constructions and results of this section:
 - The fundamental theorems of calculus.
 -/
+
+@[expose] public section
 
 namespace Chapter11
 open Chapter9 Chapter10 BoundedInterval

@@ -1,6 +1,10 @@
-import Mathlib.Tactic
-import Analysis.Section_8_1
-import Analysis.Section_8_2
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_8_1
+public import Analysis.Section_8_2
+
+@[expose] public section
 
 set_option doc.verso.suggestions false
 

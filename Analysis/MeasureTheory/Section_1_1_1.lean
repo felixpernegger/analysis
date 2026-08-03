@@ -1,5 +1,7 @@
-import Analysis.MeasureTheory.Notation
-import Analysis.Section_9_1
+module
+
+public import Analysis.MeasureTheory.Notation
+public import Analysis.Section_9_1
 
 /-!
 # Introduction to Measure Theory, Section 1.1.1: Elementary measure
@@ -7,6 +9,8 @@ import Analysis.Section_9_1
 A companion to Section 1.1.1 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 /- Definition 1.1.1.  (Intervals) We use the same formalization of intervals used in
 Chapter 11 of "Analysis I".  Following the usual Lean preference to admit `junk` values,

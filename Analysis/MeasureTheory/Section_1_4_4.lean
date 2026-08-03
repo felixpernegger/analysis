@@ -1,4 +1,6 @@
-import Analysis.MeasureTheory.Section_1_4_3
+module
+
+public import Analysis.MeasureTheory.Section_1_4_3
 
 /-!
 # Introduction to Measure Theory, Section 1.4.4: Measurable functions, and integration on a measure space
@@ -6,3 +8,5 @@ import Analysis.MeasureTheory.Section_1_4_3
 A companion to (the introduction to) Section 1.4.4 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section

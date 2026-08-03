@@ -1,5 +1,9 @@
-import Mathlib.Tactic
-import Analysis.Misc.SI
+module
+
+public import Mathlib.Tactic
+public import Analysis.Misc.SI
+
+@[expose] public section
 
 
 namespace SI

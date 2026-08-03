@@ -1,6 +1,10 @@
-import Mathlib.Tactic
-import Mathlib.Data.Real.Sign
-import Analysis.Section_9_1
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Data.Real.Sign
+public import Analysis.Section_9_1
+
+@[expose] public section
 
 set_option doc.verso.suggestions false
 

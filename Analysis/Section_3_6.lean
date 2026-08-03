@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Analysis.Section_3_3
-import Analysis.Section_3_5
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_3_3
+public import Analysis.Section_3_5
 
 /-!
 # Analysis I, Section 3.6: Cardinality of sets
@@ -27,6 +29,8 @@ Users of the companion who have completed the exercises in this section are welc
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 namespace Chapter3
 

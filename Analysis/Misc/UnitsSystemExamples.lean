@@ -1,5 +1,9 @@
-import Mathlib.Tactic
-import Analysis.Misc.UnitsSystem
+module
+
+public import Mathlib.Tactic
+public import Analysis.Misc.UnitsSystem
+
+@[expose] public section
 
 open UnitsSystem
 variable [UnitsSystem]

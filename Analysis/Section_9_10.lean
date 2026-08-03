@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 /-!
 # Analysis I, Section 9.10: Limits at infinity
 
@@ -11,6 +13,8 @@ doing so.
 Main constructions and results of this section:
 - Bare-bones API for the Mathlib versions of adherent at infinity, and limits at infinity.
 -/
+
+@[expose] public section
 
 namespace Chapter9
 

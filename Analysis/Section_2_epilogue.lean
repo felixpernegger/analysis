@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_2_3
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_2_3
 
 /-!
 # Analysis I, Chapter 2 epilogue: Isomorphism with the Mathlib natural numbers
@@ -29,6 +31,8 @@ Users of the companion who have completed the exercises in this section are welc
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 /-- Converting a Chapter 2 natural number to a Mathlib natural number. -/
 abbrev Chapter2.Nat.toNat (n : Chapter2.Nat) : ℕ := match n with

@@ -1,4 +1,6 @@
-import Analysis.MeasureTheory.Section_1_3_3
+module
+
+public import Analysis.MeasureTheory.Section_1_3_3
 
 /-!
 # Introduction to Measure Theory, Section 1.3.4: Absolute integrability
@@ -6,6 +8,8 @@ import Analysis.MeasureTheory.Section_1_3_3
 A companion to (the introduction to) Section 1.3.4 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 -- It is probably possible to unify the real and complex theory here using the `RCLike` class in Mathlib, but we will adopt the more pedestrian approach of duplicating definitions in the real and complex cases.
 

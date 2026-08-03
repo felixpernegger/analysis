@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_2_1
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_2_1
 
 /-!
 # Analysis I, Section 2.2: Addition
@@ -30,6 +32,8 @@ tips for future users in this section as PRs.
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 namespace Chapter2
 

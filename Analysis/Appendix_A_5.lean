@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Analysis I, Appendix A.5: Nested quantifiers
@@ -6,6 +8,8 @@ import Mathlib.Tactic
 Some examples of nested quantifiers in Lean
 
 -/
+
+@[expose] public section
 
 
 example : ∀ x > (0:ℝ), ∃ y > 0, y^2 = x := by

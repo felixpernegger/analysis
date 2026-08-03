@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Introduction to Measure Theory, Chapter 0: Notation
@@ -9,6 +11,8 @@ We use existing Mathlib constructions, such as {name}`Set.indicator`, {name}`Euc
 and {name}`tsum` to describe the concepts defined in Chapter 0.
 
 -/
+
+@[expose] public section
 
 /-- A version of {name}`Set.indicator` suitable for this text. -/
 noncomputable abbrev Set.indicator' {X: Type*} (E: Set X) := indicator E (fun _ ↦ (1:ℝ))

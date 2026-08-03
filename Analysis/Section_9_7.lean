@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Analysis.Section_9_3
-import Analysis.Section_9_4
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_9_3
+public import Analysis.Section_9_4
 
 
 /-!
@@ -15,6 +17,8 @@ doing so.
 Main constructions and results of this section:
 - The intermediate value theorem.
 -/
+
+@[expose] public section
 
 namespace Chapter9
 

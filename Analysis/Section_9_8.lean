@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_9_6
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_9_6
 
 /-!
 # Analysis I, Section 9.8: Monotonic functions
@@ -13,6 +15,8 @@ doing so.
 Main constructions and results of this section:
 - Review of Mathlib monotonicity concepts.
 -/
+
+@[expose] public section
 
 namespace Chapter9
 

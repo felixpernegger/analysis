@@ -1,4 +1,6 @@
-import Mathlib
+module
+
+public import Mathlib
 
 /-! A solution to Erdos problem \#987.  It is convenient to rephrase things using
 elements $$z_j = e(x_j)$$ on the unit circle, and to index the sequence starting from 0
@@ -6,6 +8,8 @@ rather than 1, for greater compatibility with Mathlib.
 
 The proof follows the second proof given in https://www.erdosproblems.com/987
  -/
+
+@[expose] public section
 
 open Filter Complex Finset
 

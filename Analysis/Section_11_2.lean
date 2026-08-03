@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_11_1
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_11_1
 
 /-!
 # Analysis I, Section 11.2: Piecewise constant functions
@@ -15,6 +17,8 @@ Main constructions and results of this section:
 - The piecewise constant integral.
 
 -/
+
+@[expose] public section
 
 namespace Chapter11
 open BoundedInterval

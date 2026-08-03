@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # General utilities for Real, EReal, and ENNReal
@@ -6,6 +8,8 @@ import Mathlib.Tactic
 This file contains general-purpose lemmas about {name}`Real`, {name}`EReal`, and {name}`ENNReal`
 that are not specific to measure theory but are used throughout the formalization.
 -/
+
+@[expose] public section
 
 -- =============================================================================
 -- Real number utilities

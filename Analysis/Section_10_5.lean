@@ -1,7 +1,9 @@
-import Mathlib.Tactic
-import Analysis.Section_9_1
-import Analysis.Section_10_1
-import Analysis.Section_10_2
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_9_1
+public import Analysis.Section_10_1
+public import Analysis.Section_10_2
 
 /-!
 # Analysis I, Section 10.5: L'Hôpital's rule
@@ -16,6 +18,8 @@ Main constructions and results of this section:
 - L'Hôpital's rule.
 
 -/
+
+@[expose] public section
 
 open Chapter9
 namespace Chapter10

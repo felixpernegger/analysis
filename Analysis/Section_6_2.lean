@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Analysis.Section_5_5
-import Analysis.Section_5_epilogue
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_5_5
+public import Analysis.Section_5_epilogue
 
 /-!
 # Analysis I, Section 6.2: The extended real number system
@@ -17,6 +19,8 @@ Main constructions and results of this section:
   operation {name}`sSup` and infimum operation {name}`sInf`.
 
 -/
+
+@[expose] public section
 
 open EReal
 

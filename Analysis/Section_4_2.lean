@@ -1,5 +1,9 @@
-import Mathlib.Tactic
-import Mathlib.Algebra.Group.MinimalAxioms
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Algebra.Group.MinimalAxioms
+
+@[expose] public section
 
 set_option doc.verso.suggestions false
 

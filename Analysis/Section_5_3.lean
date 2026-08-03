@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Analysis.Section_5_2
-import Mathlib.Algebra.Group.MinimalAxioms
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_5_2
+public import Mathlib.Algebra.Group.MinimalAxioms
 
 
 /-!
@@ -25,6 +27,8 @@ Users of the companion who have completed the exercises in this section are welc
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 namespace Chapter5
 

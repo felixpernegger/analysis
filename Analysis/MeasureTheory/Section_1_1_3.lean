@@ -1,4 +1,6 @@
-import Analysis.MeasureTheory.Section_1_1_2
+module
+
+public import Analysis.MeasureTheory.Section_1_1_2
 
 /-!
 # Introduction to Measure Theory, Section 1.1.3: Connections with the Riemann integral
@@ -6,6 +8,8 @@ import Analysis.MeasureTheory.Section_1_1_2
 A companion to Section 1.1.3 of the book "An introduction to Measure Theory".
 
 -/
+
+@[expose] public section
 
 open BoundedInterval
 

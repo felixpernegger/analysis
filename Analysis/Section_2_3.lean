@@ -1,5 +1,7 @@
-import Mathlib.Tactic
-import Analysis.Section_2_2
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_2_2
 
 /-!
 # Analysis I, Section 2.3: Multiplication
@@ -29,6 +31,8 @@ Users of the companion who have completed the exercises in this section are welc
 - (Add tip here)
 
 -/
+
+@[expose] public section
 
 namespace Chapter2
 

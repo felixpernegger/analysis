@@ -1,4 +1,6 @@
-import Mathlib.Tactic
+module
+
+public import Mathlib.Tactic
 
 /-!
 # Analysis I, Section 2.1: The Peano Axioms
@@ -28,6 +30,8 @@ standard Mathlib class {name}`_root_.Nat`, or {lean}`ℕ`.  However, we will dev
 `Chapter2.Nat` "by hand" in the next few sections for pedagogical purposes.
 
 -/
+
+@[expose] public section
 
 namespace Chapter2
 

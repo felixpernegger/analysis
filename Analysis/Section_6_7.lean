@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Analysis.Section_5_epilogue
-import Analysis.Section_6_6
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_5_epilogue
+public import Analysis.Section_6_6
 
 /-!
 # Analysis I, Section 6.7: Real exponentiation, part II
@@ -21,6 +23,8 @@ somewhat awkward compromise, in that we will initially accept the Mathlib expone
 (with all its API) when the exponent is a rational, and use this to define a notion of real
 exponentiation which in the epilogue to this chapter we will show is identical to the Mathlib operation.
 -/
+
+@[expose] public section
 
 namespace Chapter6
 

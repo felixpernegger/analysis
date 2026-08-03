@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Analysis.Section_8_1
-import Analysis.Section_8_2
+module
+
+public import Mathlib.Tactic
+public import Analysis.Section_8_1
+public import Analysis.Section_8_2
 
 /-!
 # Analysis I, Section 8.3: Uncountable sets
@@ -19,6 +21,8 @@ Some non-trivial API is provided beyond what is given in the textbook in order c
 notions with existing summation notions.
 
 -/
+
+@[expose] public section
 
 namespace Chapter8
 

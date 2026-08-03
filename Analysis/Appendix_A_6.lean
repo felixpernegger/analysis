@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
 
 /-!
 # Analysis I, Appendix A.6: Some examples of proofs and quantifiers
@@ -8,6 +10,8 @@ import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
 Some examples of proofs and quantifiers in Lean
 
 -/
+
+@[expose] public section
 
 /-- Proposition A.6.1 -/
 example : ∀ ε > (0:ℝ), ∃ δ > 0, 2 * δ < ε := by

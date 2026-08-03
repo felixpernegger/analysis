@@ -1,5 +1,9 @@
-import Analysis.MeasureTheory.Section_1_3_1
-import Mathlib.Algebra.Order.Floor.Semifield
+module
+
+public import Analysis.MeasureTheory.Section_1_3_1
+public import Mathlib.Algebra.Order.Floor.Semifield
+
+@[expose] public section
 
 set_option doc.verso.suggestions false
 

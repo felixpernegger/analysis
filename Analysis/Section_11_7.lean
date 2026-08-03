@@ -1,6 +1,8 @@
-import Mathlib.Tactic
-import Mathlib.Topology.Instances.Irrational
-import Analysis.Section_11_4
+module
+
+public import Mathlib.Tactic
+public import Mathlib.Topology.Instances.Irrational
+public import Analysis.Section_11_4
 
 /-!
 # Analysis I, Section 11.7: A non-Riemann integrable function
@@ -15,6 +17,8 @@ Main constructions and results of this section:
 - An example of a bounded function on a compact interval that is not Riemann integrable.
 
 -/
+
+@[expose] public section
 
 namespace Chapter11
 open BoundedInterval Chapter9
